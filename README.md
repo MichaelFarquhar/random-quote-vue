@@ -1,35 +1,13 @@
-# .
+# Random Quote App
 
-This template should help get you started developing with Vue 3 in Vite.
+> This project was built to be a direct copy of [this react project](https://github.com/MichaelFarquhar/random-quote), but uses Vue instead.
 
-## Recommended IDE Setup
+### Features
+- Built with Vue3 and the Composition API.
+- Styled with [daisyUI](https://daisyui.com/).
+- Makes requests to the [Quotable Api](https://github.com/lukePeavey/quotable) to retrieve random quotes.
+- Gives the user an option to switch between 29 themes offered by daisyUI and saves the selection in local storage. This is done using the [theme-change](https://github.com/saadeghi/theme-change) library.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+---
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+[Live Demo](https://random-quote-vue-app.netlify.app/) hosted on Netlify.
